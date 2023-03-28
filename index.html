@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Full-Screen Responsive Image Slider</title>
+  <title>Full-Screen Responsive Image Slider</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
   <link rel="stylesheet" href="./style.css">
 <style>
@@ -146,7 +146,7 @@ body {
         slides[slides.length - 1].classList.add("current");
       }
     };
-
+<?
     nextButton.addEventListener("click", () => {
       nextSlide();
       if (auto) {
@@ -161,7 +161,7 @@ body {
         slideInterval = setInterval(nextSlide, intervalTime);
       }
     });
-
+?>
     if (auto) {
       slideInterval = setInterval(nextSlide, intervalTime);
     }
